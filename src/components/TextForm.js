@@ -21,7 +21,7 @@ export default function TextForm(props) {
         console.log("handleOnChange was clicked")
         setText(event.target.value)
     }
-    const [text, setText] = useState(" ");
+    const [text, setText] = useState("");
     return (
         <>
         <div className="container">
