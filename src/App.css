@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.footer{
+  text-align: center;
+  background-color: rgba(151, 146, 146, 0.336);
+  color: black;
+  padding: 10px;
+}
