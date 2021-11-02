@@ -51,8 +51,7 @@ function App() {
           <Route exact path="/">
           </Route>
         </Switch> */}
- 
-          <TextForm showAlert={showAlert} heading = "Enter the text to analyze"  Mode = {Mode}/>
+        <TextForm showAlert={showAlert} heading = "Enter the text to analyze"  Mode = {Mode}/>
  {/* <About/> */}
  </div>
  {/* </Router> */}
