@@ -41,7 +41,7 @@ export default function TextForm(props) {
             <button className="btn btn-primary mx-2" onClick= {handleClClick}>Clear text</button>
             <button className="btn btn-primary" onClick= {handleUpClick}>Convert to UpperCase</button>
             <button className="btn btn-primary mx-2" onClick= {handleLoClick}>Convert to LowerCase</button>
-            <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleCopy}>Copy Text</button>
+            <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleCopy}> Copy Text</button>
         </div>
 
         <div className="container my-12" style ={{color:props.Mode=== 'dark' ? 'white' : '#042743'}}>
