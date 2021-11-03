@@ -46,7 +46,7 @@ export default function TextForm(props) {
 
         <div className="container my-12" style ={{color:props.Mode=== 'dark' ? 'white' : '#042743'}}>
             <h2>
-                Your text summary.
+                Your text summary:
             </h2>
             <p>
                 <b>{text.split(" ").length}</b> words <b>{text.length}</b> characters
